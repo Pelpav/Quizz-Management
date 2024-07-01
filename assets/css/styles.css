@@ -154,3 +154,17 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header, footer {
+        text-align: center;
+    }
+
+    .login-page, .quiz-page, .admin-page {
+        margin: 20px;
+    }
+}
